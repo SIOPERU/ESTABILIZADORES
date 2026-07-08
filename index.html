@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17658555212"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-17658555212');
+    </script>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Socios Estratégicos | Protección Eléctrica para Maquinaria Textil</title>
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
@@ -84,7 +90,6 @@
 </head>
 <body class="font-sans text-gray-800 bg-gray-50 antialiased overflow-x-hidden">
 
-    <!-- Navigation -->
     <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-200 shadow-sm transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
@@ -107,7 +112,6 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section class="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden bg-brand-900 text-white">
         <div class="absolute inset-0 z-0 opacity-40">
             <div class="absolute -top-24 -right-24 w-96 h-96 bg-brand-600 rounded-full mix-blend-screen filter blur-[100px] opacity-70 animate-blob"></div>
@@ -134,7 +138,6 @@
         </div>
     </section>
 
-    <!-- Solutions Section -->
     <section id="soluciones" class="py-24 bg-gray-900 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16 fade-in">
@@ -144,7 +147,6 @@
             </div>
 
             <div class="grid lg:grid-cols-2 gap-12">
-                <!-- Tech 1: Solid State -->
                 <div class="bg-gray-800 rounded-3xl overflow-hidden border border-gray-700 flex flex-col fade-in">
                     <div class="p-10 flex-grow">
                         <div class="flex justify-between items-start mb-6">
@@ -169,7 +171,6 @@
                     </div>
                 </div>
 
-                <!-- Tech 2: Servomotor -->
                 <div class="bg-gray-800 rounded-3xl overflow-hidden border border-gray-700 flex flex-col fade-in" style="transition-delay: 200ms;">
                     <div class="p-10 flex-grow">
                         <div class="flex justify-between items-start mb-6">
@@ -195,7 +196,6 @@
                 </div>
             </div>
             
-            <!-- Upsell Note -->
             <div class="mt-12 bg-gradient-to-r from-brand-900 to-gray-800 rounded-2xl p-8 border border-brand-800 flex flex-col md:flex-row items-center justify-between gap-6 fade-in">
                 <div>
                     <h4 class="text-xl font-bold text-white mb-2 flex items-center gap-2">
@@ -208,9 +208,7 @@
         </div>
     </section>
 
-    <!-- Visual Telemetry Section -->
     <section id="telemetria" class="py-24 bg-[#020617] relative border-y border-gray-800">
-        <!-- Glow effects de fondo -->
         <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10 mix-blend-overlay"></div>
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-brand-600 rounded-full mix-blend-screen filter blur-[150px] opacity-20"></div>
 
@@ -223,10 +221,8 @@
                 <p class="text-lg text-gray-400">Vea exactamente cómo nuestras dos tecnologías protegen las tarjetas electrónicas de sus clientes ante las peores condiciones de la red.</p>
             </div>
 
-            <!-- The Console Frame -->
             <div class="bg-[#0b1121] rounded-3xl border border-gray-700 shadow-[0_0_50px_rgba(37,99,235,0.15)] p-4 md:p-8 fade-in" style="transition-delay: 100ms;">
                 
-                <!-- Console Header -->
                 <div class="flex justify-between items-center pb-6 border-b border-gray-800 mb-8">
                     <div class="flex items-center gap-4">
                         <i class="ph-fill ph-activity text-3xl text-brand-500"></i>
@@ -241,10 +237,8 @@
                     </div>
                 </div>
 
-                <!-- 2 Column Graph Layout -->
                 <div class="grid lg:grid-cols-2 gap-8">
                     
-                    <!-- Panel 1: Estado Sólido (Corte de Picos) -->
                     <div class="flex flex-col h-full">
                         <div class="mb-3 flex justify-between items-end">
                             <div>
@@ -258,29 +252,23 @@
                             <div class="absolute inset-0 bg-grid-oscilloscope opacity-40"></div>
                             <div class="scanline"></div>
                             
-                            <!-- Leyenda Flotante -->
                             <div class="absolute top-4 right-4 z-20 flex flex-col gap-2 bg-black/60 backdrop-blur px-3 py-2 rounded-lg border border-gray-800">
                                 <div class="flex items-center gap-2 text-xs font-mono"><span class="w-3 h-1 bg-red-500"></span><span class="text-gray-300">Red Gamarra (Ruido)</span></div>
                                 <div class="flex items-center gap-2 text-xs font-mono"><span class="w-3 h-1 bg-brand-500"></span><span class="text-brand-300 font-bold">Salida SIO (220V)</span></div>
                             </div>
 
-                            <!-- Gráfico de Líneas -->
                             <div class="absolute inset-0 flex items-center z-10 px-4">
                                 <svg class="animate-oscilloscope w-200-pct h-full" viewBox="0 0 400 100" preserveAspectRatio="none">
-                                    <!-- Línea Roja: Red Caótica (Se repite de 0-200 a 200-400) -->
                                     <path class="glow-red text-red-500/70" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"
                                           d="M 0 50 L 10 20 L 20 80 L 30 10 L 40 90 L 50 30 L 60 70 L 70 20 L 80 80 L 90 40 L 100 60 L 110 10 L 120 90 L 130 30 L 140 70 L 150 20 L 160 80 L 170 10 L 180 90 L 190 40 L 200 50 L 210 20 L 220 80 L 230 10 L 240 90 L 250 30 L 260 70 L 270 20 L 280 80 L 290 40 L 300 60 L 310 10 L 320 90 L 330 30 L 340 70 L 350 20 L 360 80 L 370 10 L 380 90 L 390 40 L 400 50" />
-                                    <!-- Línea Azul: Filtro SIO Perfecto y recto a 220V -->
                                     <path class="glow-blue text-brand-500" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"
                                           d="M 0 50 L 400 50" />
                                 </svg>
                             </div>
-                            <!-- Centro Reference -->
                             <div class="absolute top-1/2 left-0 w-full h-[1px] bg-brand-500/30 -translate-y-1/2 z-0 dashed"></div>
                         </div>
                     </div>
 
-                    <!-- Panel 2: Servomotor (Arranque de Carga) -->
                     <div class="flex flex-col h-full mt-8 lg:mt-0">
                         <div class="mb-3 flex justify-between items-end">
                             <div>
@@ -292,35 +280,27 @@
                         
                         <div class="bg-[#050505] rounded-xl border border-gray-800 flex-grow relative overflow-hidden group min-h-[250px] flex">
                             
-                            <!-- Indicador de Carga HP (Izquierda) -->
                             <div class="w-16 bg-[#0a0a0a] border-r border-gray-800 flex flex-col justify-end items-center py-4 relative z-20">
                                 <span class="text-[10px] text-gray-500 font-mono mb-2 uppercase rotate-180" style="writing-mode: vertical-rl;">Carga Motor (HP)</span>
-                                <!-- La barra que sube y baja sincronizada -->
                                 <div class="w-4 h-32 bg-gray-900 rounded-full overflow-hidden flex items-end">
                                     <div class="w-full animate-motor-load rounded-full"></div>
                                 </div>
                             </div>
 
-                            <!-- Área del Gráfico -->
                             <div class="flex-grow relative">
                                 <div class="absolute inset-0 bg-grid-oscilloscope opacity-40"></div>
                                 <div class="scanline"></div>
                                 
-                                <!-- Leyenda Flotante -->
                                 <div class="absolute top-4 right-4 z-20 flex flex-col gap-2 bg-black/60 backdrop-blur px-3 py-2 rounded-lg border border-gray-800">
                                     <div class="flex items-center gap-2 text-xs font-mono"><span class="w-3 h-1 bg-red-500 border border-red-500 border-dashed"></span><span class="text-gray-300">Caída de Red Local</span></div>
                                     <div class="flex items-center gap-2 text-xs font-mono"><span class="w-3 h-1 bg-accent-500"></span><span class="text-accent-400 font-bold">Compensación SIO</span></div>
                                 </div>
 
-                                <!-- Gráfico de Líneas -->
                                 <div class="absolute inset-0 flex items-center z-10 px-0">
                                     <svg class="animate-oscilloscope w-200-pct h-full" viewBox="0 0 400 100" preserveAspectRatio="none">
-                                        <!-- Línea Roja: Caída masiva cuando arranca el motor -->
-                                        <!-- El arranque ocurre entre x=30 y x=110 -->
                                         <path class="glow-red text-red-500/50" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4" stroke-linejoin="round"
                                               d="M 0 50 L 30 50 L 40 90 C 70 95, 80 50, 110 50 L 200 50 L 230 50 L 240 90 C 270 95, 280 50, 310 50 L 400 50" />
                                         
-                                        <!-- Línea Naranja: Servomotor absorbiendo el golpe y regulando al instante -->
                                         <path class="glow-orange text-accent-500" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"
                                               d="M 0 50 L 30 50 L 35 60 L 45 50 L 110 50 L 200 50 L 230 50 L 235 60 L 245 50 L 310 50 L 400 50" />
                                     </svg>
@@ -339,7 +319,6 @@
         </div>
     </section>
 
-    <!-- Pricing Section -->
     <section id="precios" class="py-24 bg-gray-50 border-y border-gray-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16 fade-in">
@@ -349,7 +328,6 @@
             </div>
             
             <div class="grid lg:grid-cols-2 gap-8">
-                <!-- Tabla 1: SERVOMOTOR -->
                 <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden fade-in flex flex-col">
                     <div class="bg-brand-900 p-6 flex flex-col items-center justify-center border-b-4 border-accent-500">
                         <i class="ph-fill ph-engine text-4xl text-accent-500 mb-2"></i>
@@ -402,7 +380,6 @@
                     </div>
                 </div>
 
-                <!-- Tabla 2: ESTADO SÓLIDO -->
                 <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden fade-in flex flex-col" style="transition-delay: 100ms;">
                     <div class="bg-brand-900 p-6 flex flex-col items-center justify-center border-b-4 border-brand-400">
                         <i class="ph-fill ph-cpu text-4xl text-brand-400 mb-2"></i>
@@ -464,7 +441,6 @@
         </div>
     </section>
 
-    <!-- The B2B Problem Section -->
     <section id="problema" class="py-24 bg-white relative">
         <div class="absolute inset-0 bg-pattern opacity-50 z-0"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -474,7 +450,6 @@
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Card 1 -->
                 <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 fade-in hover:-translate-y-2 transition-transform duration-300">
                     <div class="w-14 h-14 bg-red-50 rounded-xl flex items-center justify-center text-red-500 mb-6">
                         <i class="ph-fill ph-circuitry text-3xl"></i>
@@ -482,7 +457,6 @@
                     <h3 class="text-xl font-bold mb-3 text-gray-800">Pérdida de Margen</h3>
                     <p class="text-gray-600">Reponer la tarjeta electrónica de una atracadora o bordadora por "garantía" anula el margen de ganancia de toda la venta original.</p>
                 </div>
-                <!-- Card 2 -->
                 <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 fade-in hover:-translate-y-2 transition-transform duration-300" style="transition-delay: 100ms;">
                     <div class="w-14 h-14 bg-orange-50 rounded-xl flex items-center justify-center text-orange-500 mb-6">
                         <i class="ph-fill ph-users-three text-3xl"></i>
@@ -490,7 +464,6 @@
                     <h3 class="text-xl font-bold mb-3 text-gray-800">Tiempos Muertos</h3>
                     <p class="text-gray-600">Su servicio técnico pierde valiosas horas diagnosticando máquinas que fallaron exclusivamente por picos de tensión en el taller del cliente.</p>
                 </div>
-                <!-- Card 3 -->
                 <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 fade-in hover:-translate-y-2 transition-transform duration-300" style="transition-delay: 200ms;">
                     <div class="w-14 h-14 bg-brand-50 rounded-xl flex items-center justify-center text-brand-600 mb-6">
                         <i class="ph-fill ph-shield-warning text-3xl"></i>
@@ -502,7 +475,6 @@
         </div>
     </section>
 
-    <!-- Distributor Benefits -->
     <section id="beneficios" class="py-24 bg-brand-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-16 items-center">
@@ -555,7 +527,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="bg-gray-950 text-gray-400 py-12 border-t border-gray-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-3 gap-8 items-center">
@@ -579,7 +550,6 @@
         </div>
     </footer>
 
-    <!-- Scripts -->
     <script>
         const observerOptions = { root: null, rootMargin: '0px', threshold: 0.1 };
         const observer = new IntersectionObserver((entries, observer) => {
